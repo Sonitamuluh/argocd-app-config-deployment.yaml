@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: https://hub.docker.com/repository/docker/sonitamuluh/python.py:1.1
+        image: https://hub.docker.com/sonitamuluh/python.py:1.1
         ports:
         - containerPort: 8080
