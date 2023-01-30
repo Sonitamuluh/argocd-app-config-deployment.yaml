@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        app: python.py
     spec:
       containers:
       - name: myapp
-        image: sonitamuluh/python.py:1.1
+        image: https://hub.docker.com/repository/docker/sonitamuluh/python.py:1.1
         ports:
         - containerPort: 8080
